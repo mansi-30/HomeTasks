@@ -80,6 +80,10 @@ body{
     padding: 6px;
    cursor: pointer;
 }
+.img{
+    width: 140px;
+    height: 120px;
+}
 
 .all-news-title{
     margin-top: 25px;
