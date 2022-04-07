@@ -181,6 +181,9 @@ width: 100%;
 @media only screen and (min-width: 600px) {
     .col-s-1 {width: 20%;}
     .col-s-2 {width: 70%;}
+    .mainBody{
+        height: 430px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
