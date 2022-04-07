@@ -183,13 +183,10 @@ width: 100%;
     .col-s-1 {width: 20%;}
     .col-s-2 {width: 70%;}
     .mainBody{
-        height: 430px;
+        height: 500px;
+        margin-bottom: 70px;
     }
     
-    .news-head{
-        padding: 1px 1px 1px 1px;
-    }
-   
 }
 
 @media only screen and (min-width: 600px) {
@@ -210,7 +207,7 @@ width: 100%;
         text-align: center;
     }
     .mainBody{
-        height: 700px;
+        height: 550px;
     }
 }
 
