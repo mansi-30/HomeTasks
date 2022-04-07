@@ -38,7 +38,8 @@ body{
     padding-bottom: 10px;
     position: fixed;
     bottom: 0px;
-    width: 100%;
+    width: 98%;
+    
 }
 
 /* Main section starts */
@@ -60,10 +61,7 @@ body{
     border-radius: 0%;
     margin-top: 8px;
 }
-.mainBody{
-    overflow: scroll;
-    height: 400px;
-}
+
 .blog-body{
     text-align: justify;
 }
@@ -101,7 +99,9 @@ body{
 .all-news-title{
     margin-top: 25px;
 }
-
+.mainBody{
+    overflow-y: scroll;
+}
 
 .hr-main{
     border: 0;
@@ -160,7 +160,7 @@ body{
 }
 .hr-blog{
     margin-left: 30px;
-    margin-right: 100px;
+    margin-right: 80px;
     border: 0;
     height: 0;
     border-top: 1px solid rgb(184, 179, 179);
@@ -180,11 +180,14 @@ width: 100%;
 }
 
 @media only screen and (min-width: 320px) {
-    .col-s-1 {width: 20%;}
-    .col-s-2 {width: 70%;}
+    .col-s-1 {width: 30%;}
+    .col-s-2 {width: 90%;}
     .mainBody{
         height: 500px;
         margin-bottom: 70px;
+    }
+    .hr-blog{
+        margin-right: 50px;
     }
     
 }
@@ -196,8 +199,19 @@ width: 100%;
         text-align: center;
     }
     .mainBody{
-        height: 700px;
+        height: 600px;
+        overflow-y: scroll;
+        margin-bottom: 35px;
     }
+    .hr-blog{
+        margin-right: 65px;
+    }
+    .blog-data{
+        margin-left: 30px;
+    }
+    
+    
+
 }
 
 @media only screen and (min-width: 1060px) {
@@ -207,8 +221,14 @@ width: 100%;
         text-align: center;
     }
     .mainBody{
-        height: 550px;
+        height: 600px;
+        overflow-y: hidden;
+        margin-bottom: 15px;
     }
+    .blog-data{
+        margin-left: 50px;
+    }
+    
 }
 
 #readmore{
