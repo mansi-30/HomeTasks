@@ -7,4 +7,4 @@ css
 # Addition Work
 Used JavaScript to make is more responsive
 # url
-https://mansi-30.github.io/Task1.github.io/
+https://mansi-30.github.io/HomeTasks/Task1/
