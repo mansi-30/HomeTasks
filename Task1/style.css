@@ -193,7 +193,7 @@ width: 100%;
     
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px ) and (max-width: 799px) {
     .col-1 {width: 18%;}
     .col-2 {width: 70%;}
     .abc{
@@ -205,12 +205,24 @@ width: 100%;
         margin-bottom: 35px;
     }
     .hr-blog{
-        margin-right: 65px;
+        margin-right: 40px;
     }
+     .blog-data{
+         margin-left: 35px;
+     }
+}
 
-    
-    
-
+@media only screen and (min-width: 800px) {
+    .col-1 {width: 18%;}
+    .col-2 {width: 70%;}
+    .abc{
+        text-align: center;
+    }
+    .mainBody{
+        height: 600px;
+        overflow-y: scroll;
+        margin-bottom: 35px;
+    }
 }
 
 @media only screen and (min-width: 1060px) {
