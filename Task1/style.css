@@ -210,6 +210,12 @@ width: 100%;
      .blog-data{
          margin-left: 35px;
      }
+     .email-feild{
+         width: 80px;
+     }
+     .catergory-dropdown{
+         width: 150px;
+     }
 }
 
 @media only screen and (min-width: 800px) {
