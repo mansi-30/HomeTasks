@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet"> <!--Font imported-->
     <title>Task-1</title>
     </head>
+
 <body onload="onload()">
     <header>
         <div class="header-main-section">
@@ -20,20 +21,21 @@
             </div>
         </div>
     </header>
+
     <div class="view">
         <div class="main-section">
             <div class="news-head">
                 <div class="news-head-title">SELECT CATEGORY</div>
-                <div>
-                    <select class="catergory-dropdown" onchange="sortBlogs(this.value)">
+                    <div>
+                        <select class="catergory-dropdown" onchange="sortBlogs(this.value)">
                         <option value="1">All</option>
                         <option value="2">1</option>
                         <option value="3">2</option>
                         <option value="4">3</option>
                         <option value="5">None</option>
-                    </select>
+                        </select>
+                    </div>
                 </div>
-            </div>
             <div class="news-head abc">
                 <div class="font-18-600 all-news-title" >
                     ALL NEWS
@@ -48,21 +50,22 @@
                     </form>
                 </div>
             </div>
-         </div>
+    
+        </div>
         <hr class="hr-main">
-        <div class="mainBody">
+        <div class="main-body">
         <div class="row" id="category1" style="margin-left: 30px;margin-right: 30px;">
             <div class="col-1 col-s-1 menu">
-                <img src="./logo.jpg" class="img">
+                <img src="./news-img (1).jpg" class="img">
             </div>
             <div class="col-2 col-s-2">
                 <div class="blog-data">
                     <div class="blog-title">
-                        Title One
+                       Title One
                      </div>
                     <div class="blog-meta-data">
                         Posted on <span class="bold">29 June 2019</span> // Category: <span class="bold">Category
-                            One</span>
+                        One</span>
                     </div>
                     <div class="blog-body">
                         Lorem ipsum dolor sir amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -74,7 +77,7 @@
                         labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commondo viverra 
                         maecenas accumsan lacus vel facilisis. Consectetur adipiscing ekit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliquauis ipsum suspendidse ultrices gravidasus commodo.
-                        </span>
+                            </span>
                     </div>
                     <div>
                         <button class="continue-btn" >
@@ -84,11 +87,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+         </div>
         <hr class="hr-blog" id = "hr1">
         <div class="row" id="category2"  style="margin-left: 30px;margin-right: 30px;">
             <div class="col-1 col-s-1 menu">
-                <img src="./logo.jpg" class="img">
+                <img src="./news-img (1).jpg" class="img">
             </div>
             <div class="col-2 col-s-2">
                 <div class="blog-data">
@@ -119,11 +122,11 @@
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
         <hr class="hr-blog" id="hr2" >
         <div class="row" id="category3"  style="margin-left: 30px;margin-right: 30px;">
             <div class="col-1 col-s-1 menu">
-                <img src="./logo.jpg" class="img">
+                <img src="./news-img (1).jpg" class="img">
             </div>
             <div class="col-2 col-s-2">
                 <div class="blog-data">
@@ -156,10 +159,9 @@
             </div>
         </div>
     </div>
-    
- <footer class="footer-style">
+<footer class="footer-style">
         <div>@NewsFeed 2019</div>
- </footer>
+</footer>
 </body>
 
 <!--JavaScript-->
@@ -170,7 +172,6 @@
         document.getElementById('readmore'+i).style.display = "none";
         }    
     }
-    
     function sortBlogs(value){
         console.log("hi")
         if(value==1){
