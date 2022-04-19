@@ -4,7 +4,6 @@ body{
     font-family: roboto;
 }
 
-
 /* header starts */
 .title-card{
     border: 1px solid red;
@@ -16,7 +15,6 @@ body{
     background-color: white;
     padding: 5px 10px 5px 10px;
 }
-
 .header-main-section{
     background-color: #273852;
     padding-top: 10px;
@@ -40,7 +38,6 @@ body{
     position: fixed;
     bottom: 0px;
     width: 98%;
-    
 }
 
 /* Main section starts */
@@ -50,35 +47,29 @@ body{
     display: grid;
     grid-gap: 10px;
 }
-
 .news-head-title{
     font-size: 12px;
     font-weight: 600;
 }
-
 .catergory-dropdown{
     width: 200px;
     padding: 5px;
     border-radius: 0%;
     margin-top: 8px;
 }
-
 .blog-body{
     text-align: justify;
 }
 .news-head{
     letter-spacing: 2px;
 }
-
 .all-new-title{
     text-align: center;
     margin-top: 20px;
 }
-
 .subscribe-container{
     margin-top: 8px;
 }
-
 .email-feild{
     border-radius:0%;
     border: 1px solid black;
@@ -96,14 +87,12 @@ body{
     width: 140px;
     height: 120px;
 }
-
 .all-news-title{
     margin-top: 25px;
 }
-.mainBody{
+.main-body{
     overflow-y: scroll;
 }
-
 .hr-main{
     border: 0;
     height: 0;
@@ -112,7 +101,6 @@ body{
     margin-left: 30px;
     margin-right: 30px;
 }
-
 .blog-section{
     max-width: 100%;
     margin: 30px;
@@ -123,7 +111,7 @@ body{
      margin-top: 15px;
  }
 
-
+/*Media query started*/
 @media (min-width: 600px) {
     .main-section{
     grid-template-columns: repeat(3,1fr);
@@ -134,8 +122,7 @@ body{
     clear: both;
     display: table;
   }
-  
-[class*="col-"] {
+ [class*="col-"] {
     float: left;
     padding: 15px;
   }
@@ -170,16 +157,11 @@ body{
 .bold{
     font-weight: 500;
 }
-  
 
-
-
-/*Media Query*/
 /* For mobile phones: */
 [class*="col-"] {
 width: 100%;
 }
-
 @media only screen and (min-width: 320px) {
     .col-s-1 {width: 30%;}
     .col-s-2 {width: 90%;}
@@ -190,68 +172,39 @@ width: 100%;
     .hr-blog{
         margin-right: 50px;
     }
-    
 }
-
-@media only screen and (min-width: 600px ) and (max-width: 799px) {
+@media only screen and (min-width: 600px) {
     .col-1 {width: 18%;}
     .col-2 {width: 70%;}
     .abc{
         text-align: center;
     }
-    .mainBody{
+    .main-body{
         height: 600px;
         overflow-y: scroll;
         margin-bottom: 35px;
     }
     .hr-blog{
-        margin-right: 40px;
-    }
-     .blog-data{
-         margin-left: 35px;
-     }
-     .email-feild{
-         width: 80px;
-     }
-     .catergory-dropdown{
-         width: 150px;
-     }
-}
-
-@media only screen and (min-width: 800px) {
-    .col-1 {width: 18%;}
-    .col-2 {width: 70%;}
-    .abc{
-        text-align: center;
-    }
-    .mainBody{
-        height: 600px;
-        overflow-y: scroll;
-        margin-bottom: 35px;
+        margin-right: 65px;
     }
 }
-
 @media only screen and (min-width: 1060px) {
     .col-1 {width: 12%;}
     .col-2 {width: 70%;}
     .abc{
         text-align: center;
     }
-    .mainBody{
+    .main-body{
         height: 600px;
         overflow-y: hidden;
         margin-bottom: 15px;
     }
-    
-    
 }
-
 #readmore{
     display: none;
 }
 #readmore:target{
     display: block;
 }
-
 
 
