@@ -100,7 +100,7 @@ body{
 .all-news-title{
     margin-top: 25px;
 }
-.mainBody{
+.main-body{
     overflow-y: scroll;
 }
 
@@ -199,7 +199,7 @@ width: 100%;
     .abc{
         text-align: center;
     }
-    .mainBody{
+    .main-body{
         height: 600px;
         overflow-y: scroll;
         margin-bottom: 35px;
@@ -219,7 +219,7 @@ width: 100%;
     .abc{
         text-align: center;
     }
-    .mainBody{
+    .main-body{
         height: 600px;
         overflow-y: hidden;
         margin-bottom: 15px;
